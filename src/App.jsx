@@ -93,10 +93,9 @@ const CONFIG = {
     {
       name: "The Complete Full-Stack Web Development Bootcamp – Udemy",
       link: "#",
-      image: "/cert-udemy.jpg",
+      image: "/public/cert-udemy.jpg",
     },
   ],
-  bikeImage: "/bike-photo.jpg",
 };
 
 // ---------------- 3D subcomponents ----------------
