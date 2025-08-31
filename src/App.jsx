@@ -93,7 +93,7 @@ const CONFIG = {
     {
       name: "The Complete Full-Stack Web Development Bootcamp – Udemy",
       link: "#",
-      image: "/public/cert-udemy.jpg",
+      image: "./public/cert-udemy.jpg",
     },
   ],
 };
