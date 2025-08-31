@@ -92,8 +92,8 @@ const CONFIG = {
   certs: [
     {
       name: "The Complete Full-Stack Web Development Bootcamp – Udemy",
-      link: "#",
-      image: "./public/cert-udemy.jpg",
+      link: "https://drive.google.com/drive/folders/1b4w2b1jsFEIs1-hhCOSgemw-JsUeM6ej?usp=drive_link",
+      image: "https://res.cloudinary.com/dqxtox5rl/image/upload/v1756665396/cert-udemy_cw8ign.jpg",
     },
   ],
 };
@@ -445,7 +445,7 @@ From: ${form.name} <${form.email}>`);
                 <img src={c.image} alt={c.name} className="rounded-lg border border-white/10 shadow-lg w-full object-cover" />
                 <div>
                   <h4 className="font-semibold mt-2">{c.name}</h4>
-                  <a href={"https://drive.google.com/drive/folders/1b4w2b1jsFEIs1-hhCOSgemw-JsUeM6ej?usp=drive_link"} className="text-sm text-indigo-300 hover:text-indigo-200">View</a>
+                  <a href={c.link} className="text-sm text-indigo-300 hover:text-indigo-200">View</a>
                 </div>
               </div>
             </Card>
